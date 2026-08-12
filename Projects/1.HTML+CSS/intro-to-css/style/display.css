@@ -1,0 +1,10 @@
+article{
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    
+}
+.second{
+    display: none;
+}

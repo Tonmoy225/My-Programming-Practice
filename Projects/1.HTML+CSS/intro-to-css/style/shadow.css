@@ -1,0 +1,17 @@
+.blog{
+    background-color:blueviolet;
+    width: 300px;
+    margin: 50px;
+    box-shadow: 10px 10px 5px grey;
+}
+#header{
+    background-color: #9fe2bf;
+    background-image: url(../flower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 300px;
+}
+#header h1{
+    text-align: center;
+    padding-top: 100px;
+}

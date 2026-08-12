@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout</title>
+
+    <style>
+        .container
+        {
+            display:flex;
+            /* flex-direction:row; */
+            gap:10px;
+            justify-content:center;
+
+        }
+        .box{
+            border: 1px solid black;
+            padding: 10px;
+            margin: 5px;
+            display:block;
+        }
+        .user{
+            border: 1px solid black;
+            padding: 10px;
+            margin: 5px;
+            display:block; 
+        }
+        .user-container {
+            display: flex;
+            gap: 10px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- .user-container>.user*5{user -$} -->
+
+    <div class="user-container">
+        <div class="user">user -1</div>
+        <div class="user">user -2</div>
+        <div class="user">user -3</div>
+        <div class="user">user -4</div>
+        <div class="user">user -5</div>
+    </div>
+
+
+
+
+
+
+
+    <!-- <div>
+        <p></p>
+     </div> -->
+
+
+    <div>
+        <section>
+            <article>
+                <h2></h2>
+            </atricle>
+        </section>
+    </div>
+
+    <div>
+        <article>
+            <section>
+                <h2></h2>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h2></h2>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h2></h2>
+            </section>
+        </article>
+    </div>
+
+<div>
+    <article>
+        <section>
+            <h2></h2>
+            <p></p>
+            <p></p>
+        </section>
+    </article>
+    <article>
+        <section>
+            <h2></h2>
+            <p></p>
+            <p></p>
+        </section>
+    </article>
+    <article>
+        <section>
+            <h2></h2>
+            <p></p>
+            <p></p>
+        </section>
+    </article>
+</div>
+
+<!-- .container>h2.header#first -->
+<div class="container">
+    <h2 class="header" id="first">First Header</h2>
+</div>
+
+<!-- ul.container>li.item*5{item} -->
+<ul class="container">
+    <li class="item">item</li>
+    <li class="item">item</li>
+    <li class="item">item</li>
+    <li class="item">item</li>
+    <li class="item">item</li>
+</ul>
+
+<!-- ul.container>li.item*5{item -$} -->
+<ul class="container">
+    <li class="item">item -1</li>
+    <li class="item">item -2</li>
+    <li class="item">item -3</li>
+    <li class="item">item -4</li>
+    <li class="item">item -5</li>
+</ul>
+
+
+<!-- .container>.box*5{box -$} -->
+<div class="container">
+    <div class="box">box -1</div>
+    <div class="box">box -2</div>
+    <div class="box">box -3</div>
+    <div class="box">box -4</div>
+    <div class="box">box -5</div>
+</div>
+
+
+</body>
+
+</html>

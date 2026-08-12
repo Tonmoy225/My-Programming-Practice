@@ -1,0 +1,24 @@
+.banner{
+    display: flex;
+    background-color:blanchedalmond;
+    padding: 20px;
+}
+.banner-content{
+    flex:2;
+     
+    text-align:center;
+    align-items: center;
+}
+.banner-image{
+    flex:1;
+}
+.banner-content button{
+    background-color:aliceblue;
+    padding: 10px 20px;
+    border-readius: 5px;
+    cursor: pointer;
+
+}
+.banner-content button:hover{
+    background-color: blueviolet;
+}
